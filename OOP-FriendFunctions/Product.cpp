@@ -14,10 +14,9 @@ void validateId() {
 
 // Default constructor
 Product::Product() {
-	int id = 0;
-	string title = "Product";
-	bool presence = false;
-	int price = 0;
+	id = 0;
+	presence = true;
+	price = 1;
 }
 
 // Functions for accessing variables
@@ -26,12 +25,6 @@ void Product::setId(int id) {
 }
 int Product::getId() {
 	return id;
-}
-void Product::setName(string _name) {
-	name = _name;
-}
-string Product::getName() {
-	return name;
 }
 void Product::setPresence(bool presence) {
 	this->presence = presence;

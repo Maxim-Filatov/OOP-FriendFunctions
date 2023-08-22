@@ -73,7 +73,7 @@ double areaOfRectangle(Rectangle rectangle) {
 /* Second task.
    Create a class Product and an array of 6 objects. Calculate the total purchase sum */
 int purchaseSum() {
-    int totalSum;
+    int totalSum = 0;
     Product *products;
     products = new Product[6];
     products[0].setPrice(10);
